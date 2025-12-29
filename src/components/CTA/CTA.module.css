@@ -1,0 +1,43 @@
+.cta {
+  background: #020817;
+  padding: 120px 16px;
+  text-align: center;
+}
+
+.cta h2 {
+  color: gray;
+  font-size: 3rem;
+  margin-bottom: 16px;
+}
+
+.cta p {
+  color: gray;
+  font-size: 1.2rem;
+  margin-bottom: 40px;
+}
+
+.cta button {
+  background: #15803D;
+  color: white;
+  border: none;
+  padding: 18px 56px;
+  font-size: 1rem;
+  border-radius: 999px;
+  cursor: pointer;
+  transition: transform 0.2s ease, opacity 0.2s ease;
+}
+
+.cta button:hover {
+  transform: scale(1.05);
+  opacity: 0.9;
+}
+
+@media (max-width: 768px) {
+  .cta h2 {
+    font-size: 2.2rem;
+  }
+
+  .cta p {
+    font-size: 1rem;
+  }
+}

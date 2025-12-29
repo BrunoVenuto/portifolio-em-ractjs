@@ -1,0 +1,52 @@
+
+
+.containerGeral {
+    display: flex;
+    width: 100%;
+    height: 200px;
+    background-color: #0B1222;
+    align-items: center;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.containerAreaInfo p {
+    color: white;
+    font-size: 25px;
+}
+
+
+.containerAreaSocial {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+@media (max-width: 768px) {
+    .containerGeral {
+        height: auto;
+        padding: 20px 12px;
+    }
+
+    .container {
+        flex-direction: column;
+        align-items: center;
+        gap: 16px;
+    }
+
+    .containerAreaInfo p {
+        font-size: 15px;
+    }
+
+    .containerAreaSocial {
+        cursor: pointer;
+        flex-direction: column;
+        gap: 16px;
+    }
+}
