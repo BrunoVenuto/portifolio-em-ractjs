@@ -14,7 +14,7 @@ export const WhatsappButton = () => {
             rel='noopener noreferrer'
             className={styles.button}
         >
-            Faça um Orçamento
+            Falar no WhatsApp
         </a>
     )
 }

@@ -13,10 +13,9 @@ export const InfoArea = () => {
           </h1>
 
           <p className={styles.subtitle}>
-            Sou desenvolvedor Front-End, focado em criar interfaces modernas,
-            responsivas e intuitivas.
-            Trabalho com React, Next.js, HTML, CSS e JavaScript
-            para transformar ideias em experiências reais.
+            Sou desenvolvedor Front-End e crio sites e landing pages modernas, responsivas e intuitivas.
+Trabalho com React, Next.js, HTML, CSS e JavaScript para transformar ideias em experiências digitais que geram resultados.
+
           </p>
 
           <WhatsappButton />
