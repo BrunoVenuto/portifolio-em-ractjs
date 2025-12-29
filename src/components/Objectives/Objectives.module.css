@@ -13,18 +13,18 @@
 }
 
 .Objective h2 {
-    color: gray;
+    color: #ffffff;
     text-align: center;
     font-size: 44px;
 }
 
 .Objective h3 {
-    color: gray;
+    color: rgba(255, 255, 255, 0.85);
     font-size: 30px;
 }
 
 .Objective p {
-    color: gray;
+    color: rgba(255, 255, 255, 0.85);
     font-size: 25px;
 }
 
