@@ -5,28 +5,52 @@ import styles from "./ProjectList.module.css";
 export function ProjectList() {
   return (
     <div className={styles.list}>
+      {/* Projeto 1 */}
       <div className={styles.card}>
         <h3>Galeria de Fotos</h3>
         <p>Projeto em React focado em organização e visual.</p>
 
-        <a
-          href="https://github.com/BrunoVenuto/galeria-de-fotos"
-          target="_blank"
-        >
-          Ver no GitHub
-        </a>
+        <div className={styles.links}>
+          <a
+            href="https://galeria-de-fotos.vercel.app"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Ver Site
+          </a>
+
+          <a
+            href="https://github.com/BrunoVenuto/galeria-de-fotos"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Código
+          </a>
+        </div>
       </div>
 
+      {/* Projeto 2 */}
       <div className={styles.card}>
         <h3>Minha História</h3>
         <p>Site institucional contando minha trajetória.</p>
 
-        <a
-          href="https://github.com/BrunoVenuto/Minha-Historia-ate-a-PPMG"
-          target="_blank"
-        >
-          Ver no GitHub
-        </a>
+        <div className={styles.links}>
+          <a
+            href="https://sistema-finan-8pot.vercel.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Ver Site
+          </a>
+
+          <a
+            href="https://minha-historia-ate-a-ppmg.vercel.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Ver Site
+          </a>
+        </div>
       </div>
     </div>
   );
