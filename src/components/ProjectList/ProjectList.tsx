@@ -7,24 +7,16 @@ export function ProjectList() {
     <div className={styles.list}>
       {/* Projeto 1 */}
       <div className={styles.card}>
-        <h3>Galeria de Fotos</h3>
-        <p>Projeto em React focado em organização e visual.</p>
+        <h3>Sistema Financeiro</h3>
+        <p>Aplicação em React para controle financeiro.</p>
 
         <div className={styles.links}>
           <a
-            href="https://galeria-de-fotos.vercel.app"
+            href="https://sistema-finan-8pot.vercel.app/"
             target="_blank"
             rel="noopener noreferrer"
           >
             Ver Site
-          </a>
-
-          <a
-            href="https://github.com/BrunoVenuto/galeria-de-fotos"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Código
           </a>
         </div>
       </div>
@@ -35,14 +27,6 @@ export function ProjectList() {
         <p>Site institucional contando minha trajetória.</p>
 
         <div className={styles.links}>
-          <a
-            href="https://sistema-finan-8pot.vercel.app/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Ver Site
-          </a>
-
           <a
             href="https://minha-historia-ate-a-ppmg.vercel.app/"
             target="_blank"
