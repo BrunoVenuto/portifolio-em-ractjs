@@ -23,12 +23,13 @@ export function ProjectList() {
 
       {/* Projeto 2 */}
       <div className={styles.card}>
-        <h3>Minha História</h3>
-        <p>Site institucional contando minha trajetória.</p>
+        <h3>Landing Page para Escritório de Advocacia</h3>
+        <p>Projeto fictício focado em conversão, aplicando copywriting,
+    funil de vendas e UX estratégico para geração de leads.</p>
 
         <div className={styles.links}>
           <a
-            href="https://minha-historia-ate-a-ppmg.vercel.app/"
+            href="https://site-advocacia-nextjs.vercel.app/"
             target="_blank"
             rel="noopener noreferrer"
           >
