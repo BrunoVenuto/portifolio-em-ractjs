@@ -8,7 +8,10 @@ export function ProjectList() {
       {/* Projeto 1 */}
       <div className={styles.card}>
         <h3>Site Advogado Fictício</h3>
-        <p>Aplicação em Nextjs com Landing Page com Painel Administrativo</p>
+        <p>Aplicação em Nextjs com com layout focado em conversão, 
+          CTA animado e formulário em modal integrado ao Supabase, 
+          além de um painel administrativo protegido para gestão de leads
+        </p>
 
         <div className={styles.links}>
           <a
