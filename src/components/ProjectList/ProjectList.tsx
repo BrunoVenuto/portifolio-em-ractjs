@@ -7,8 +7,8 @@ export function ProjectList() {
     <div className={styles.list}>
       {/* Projeto 1 */}
       <div className={styles.card}>
-        <h3>Sistema Financeiro</h3>
-        <p>Aplicação em React para controle financeiro.</p>
+        <h3>Site Advogado Fictício</h3>
+        <p>Aplicação em Nextjs com Landing Page com Painel Administrativo</p>
 
         <div className={styles.links}>
           <a
