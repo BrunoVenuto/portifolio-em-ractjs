@@ -12,7 +12,7 @@ export function ProjectList() {
 
         <div className={styles.links}>
           <a
-            href="https://sistema-finan-8pot.vercel.app/"
+            href="https://advogado-criminal-painel-admin-pwo3.vercel.app/"
             target="_blank"
             rel="noopener noreferrer"
           >
